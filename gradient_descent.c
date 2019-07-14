@@ -29,12 +29,12 @@ int main()
 	const int string_length = 9;
 	const int number_of_permutations = factorial(alphabet_length);
 
-	int permutations[number_of_permutations][alphabet_length]; 	// List of permutations.
+	int permutations[number_of_permutations][alphabet_length]; // List of permutations.
 	double variables[string_length][alphabet_length];
 	double variables_trial[string_length][alphabet_length];
 	double gradient[string_length][alphabet_length];
 	double permutation_count[number_of_permutations];
-	int result[string_length];                         			// The string that results from rounding the variables.
+	int result[string_length]; // The string that results from rounding the variables.
 
 	fill_permutation_matrix(number_of_permutations, alphabet_length, permutations, alphabet_length);
 
